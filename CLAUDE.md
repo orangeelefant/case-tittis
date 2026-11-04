@@ -2,48 +2,20 @@
 
 Project context for Claude Code sessions in this repository.
 
-## What This Is
+## What this is
 
-Webraketen case study — tittis
+A public case study of [Tittis Städ](https://tittisstad.se), built and maintained by Webraketen. The repository holds markdown only.
 
-**Live:** https://tittisstad.se
+## Site stack
 
-## Stack
-
-_(Fill in: framework, language, hosting, key services. Inspect `package.json` / `pyproject.toml` / similar to confirm.)_
-
-## Layout
-
-- `src/` — source code
-- `tests/` — tests
-- `docs/` — documentation
-- `scripts/` — utility scripts
+Astro 7 site on Netlify, Resend for email, PostHog for analytics. Details are in `README.md`.
 
 ## Commands
 
-```bash
-# install
-# build
-# test
-# dev
-```
-
-_(Fill in actual commands once known.)`_
+None. There is no build. Changes are edits to markdown files.
 
 ## Conventions
 
-- Match existing patterns; don't introduce new abstractions without reason.
-- Keep files under 500 lines.
-- Swedish copy for client-facing text unless otherwise specified.
-- Secrets live in `~/.secrets` and are referenced via `${VAR}`.
-
-## Definition of Done
-
-A change is done when:
-
-1. Code works (built and verified locally).
-2. `CHANGELOG.md` updated under `[Unreleased]`.
-3. `TODO.md` reconciled (completed items removed or ticked, follow-ups added).
-4. Committed and pushed to `main`.
-
-See `AGENTS.md` for the full agent contract.
+- `README.md` keeps its language and ends with the shared Webraketen footer.
+- Client links keep their URL and anchor text.
+- See `AGENTS.md` for the agent rules.

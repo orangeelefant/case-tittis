@@ -6,5 +6,6 @@ Every commit that changes behavior, copy, configuration, or dependencies MUST ad
 
 ## [Unreleased]
 
+- Cleaned up README, ABOUT, AGENTS, CLAUDE and TODO for public readers, added the shared Webraketen footer and moved GitHub links to orangeelefant (2026-11-04).
 - Länkarna till hemstadgoteborg.com är borttagna enligt Christoffers beslut (2026-10-29).
 - Bootstrapped `AGENTS.md`, `CLAUDE.md`, `CHANGELOG.md`, `TODO.md` (2026-05-25).
